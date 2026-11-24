@@ -33,7 +33,7 @@ while keep_shopping == "y":
     itemname = input(
         "Type your next item to add to your shopping cart and press enter."
     )
-    itemprice = float(input("Type the price per item and press enter."))
+    itemprice = float(input("Type the price per item and press enter. $"))
     itemquantity = int(input("Type the quantity of items and press enter."))
     item = ShoppingCartItem(itemname, itemprice, itemquantity)
     cart.add_item(item)
