@@ -45,4 +45,4 @@ while keep_shopping == "y":
     print("--------------------------------------------------")
     keep_shopping = input("Do you want to add another item? (y/n): ")
 print(f"All done. Your final total is: ${cart.total_cost():.2f}")
-print("Thanks for shopping your business!")
+print("Thanks for shopping with us!")
